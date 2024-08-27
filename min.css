@@ -1,8 +1,10 @@
-body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  }
+    body {
+        background-color: lightblue;
+    }
+    
+    h2 {
+        color: navy;
+        margin-left: 200px;
+        margin-top: auto;
+    }
+    
