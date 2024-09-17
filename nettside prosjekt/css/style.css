@@ -1,6 +1,35 @@
-img{
-    width: 100%;
-}
-#toplogo{
+header img{
     width: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    padding: 1rem;
+    margin: 1px 0px;
+} 
+header ul{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    list-style-type: none;
+    gap: 0.5rem;
+    padding: 0%;
+
+}
+section a{
+background-color: beige;
+color: brown;
+padding: 15px;
+display: inline-block;
+margin: 20px 0px;
+font-size: 20px;
+
+}
+section p{
+    margin: 10px;
+}
+
+img{
+    width: 50%;
+    padding: 5px 5px 0px 5px;
 }
