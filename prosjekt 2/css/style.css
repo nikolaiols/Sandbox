@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+#main-logo{
+    width: 100%;
+    max-width: 700px;
+}
+.Flex-menu{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+    margin: 10px;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+}
+input{
+    margin: 10px;
+}
+.Flex-Space-b{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    h2{
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+}
+h2{
+    background-image: url("../img/skopaper.webp");
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    height: 250px;
+    margin: 0 auto;
+    
+}
+.product-Card{
+    max-width: 350px;
+    min-width: 200px;
+    box-shadow: 13px 9px 20px 0px #efefef;
+    border-radius: 4px;
+    padding: 1rem;
+    width: 100%;
+    img{
+        max-width: 100%;
+    }
+}
