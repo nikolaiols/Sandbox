@@ -8,9 +8,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
 }
-#main-logo{
+
+header img{
     width: 100%;
-    max-width: 700px;
+    max-width: 350px;
 }
 .Flex-menu{
     display: flex;
