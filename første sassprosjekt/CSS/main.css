@@ -1,0 +1,33 @@
+body{
+    background-color: #f0f5f7;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    a{
+    text-decoration: none;
+    color: #101427;
+    }
+}
+header img{
+    width: 100px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section{
+    max-width: 350px; /* Maksimal bredde for produktkortet er 350px */
+    min-width: 200px; /* Minimum bredde for produktkortet er 200px */
+    width: 100%; /* Produktkortet tar opp 100% av sin container */
+    box-shadow: 13px 9px 20px 0px #efefef; /* Legger til en boks-skygge for dybdeeffekt */
+    border-radius: 4px; /* Avrunder hjørnene på produktkortet med 4px */
+    padding: 1rem; /* Legger til 1rem padding på innsiden av produktkortet */
+}
